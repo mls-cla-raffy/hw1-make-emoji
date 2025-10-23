@@ -31,11 +31,7 @@ Leaving it blank will run the script with default arguments. Below is an example
 Hello everynyan 😼
 ```
 
-> If the script isn't running, make sure you're currently in the Python environment you set up before running the command above.
-
-```bash
-source testenv/bin/activate
-```
+> [Commands not working?](#troubleshooting)
 
 ## Performance
 
@@ -48,8 +44,14 @@ Average time: 0.0000 seconds
 
 ## Running Tests
 
-To run the provided tests in /tests:
-
 ```bash
 pytest -q
+```
+
+## Troubleshooting
+
+CLI commands not working? Make sure you're in a local python environment:
+
+```bash
+source testenv/bin/activate
 ```
