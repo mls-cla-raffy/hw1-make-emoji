@@ -42,6 +42,8 @@ Using Python's `timeit` module:
 Average time: 0.0000 seconds
 ```
 
+> See notebooks for methodology.
+
 ## Running Tests
 
 ```bash
