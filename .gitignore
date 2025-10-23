@@ -1,0 +1,15 @@
+# Python virtual environment (local only)
+testenv/
+.venv/
+
+# Compiled bytecode & caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Local env file / secrets
+.env
+
